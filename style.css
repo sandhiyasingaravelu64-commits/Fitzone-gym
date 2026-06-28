@@ -535,3 +535,106 @@ line-height:1.7;
     background:white;
     color:#111;
 }
+/* ================= CONTACT ================= */
+
+.contact{
+    padding:100px 10%;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.contact-info h3{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    color:#cccccc;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.info-item{
+    margin-bottom:20px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+    padding:16px;
+    background:#161616;
+    color:white;
+    border:none;
+    border-radius:10px;
+    outline:none;
+    font-size:16px;
+
+}
+
+.contact-form button{
+
+    background:#ff3b30;
+    color:white;
+    padding:16px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+    font-size:18px;
+
+}
+
+.contact-form button:hover{
+
+    background:white;
+    color:#111;
+
+}
+/* ================= FOOTER ================= */
+
+footer{
+
+    background:#111;
+    text-align:center;
+    padding:50px 20px;
+
+}
+
+footer h2{
+
+    font-size:35px;
+    margin-bottom:15px;
+
+}
+
+footer span{
+
+    color:#ff3b30;
+
+}
+
+footer p{
+
+    color:#cccccc;
+    margin-top:10px;
+
+}
+
+.copyright{
+
+    margin-top:30px;
+    font-size:14px;
+
+}
