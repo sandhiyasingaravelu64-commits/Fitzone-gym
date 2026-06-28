@@ -462,3 +462,76 @@ line-height:1.7;
     color:#dddddd;
     line-height:1.8;
 }
+/* ================= MEMBERSHIP ================= */
+
+.membership{
+    padding:100px 10%;
+}
+
+.plans{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.plan-card{
+    background:#161616;
+    padding:50px 35px;
+    border-radius:20px;
+    text-align:center;
+    transition:.4s;
+    position:relative;
+}
+
+.plan-card:hover{
+    transform:translateY(-10px);
+}
+
+.premium{
+    border:2px solid #ff3b30;
+}
+
+.tag{
+    position:absolute;
+    top:-15px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#ff3b30;
+    padding:8px 20px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.plan-card h1{
+    font-size:48px;
+    color:#ff3b30;
+    margin:25px 0;
+}
+
+.plan-card span{
+    font-size:18px;
+    color:white;
+}
+
+.plan-card ul{
+    margin:30px 0;
+}
+
+.plan-card ul li{
+    margin:15px 0;
+}
+
+.plan-btn{
+    display:inline-block;
+    padding:14px 35px;
+    background:#ff3b30;
+    color:white;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.plan-btn:hover{
+    background:white;
+    color:#111;
+}
