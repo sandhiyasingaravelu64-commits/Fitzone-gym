@@ -535,3 +535,42 @@ line-height:1.7;
     background:white;
     color:#111;
 }
+/* ================= TRAINERS ================= */
+
+.trainers{
+    padding:100px 10%;
+}
+
+.trainer-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.trainer-card{
+    background:#161616;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+    transition:0.4s;
+}
+
+.trainer-card:hover{
+    transform:translateY(-10px);
+}
+
+.trainer-card img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.trainer-card h3{
+    margin-top:20px;
+    font-size:24px;
+}
+
+.trainer-card p{
+    color:#cccccc;
+    margin:15px 0 25px;
+}
